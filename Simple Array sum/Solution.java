@@ -13,11 +13,11 @@ public class Solution {
         /*
          * Write your code here.
          */
-         int sum=0;
-         for (int i=0;i<ar.length;i++){
-             sum=sum+ar[i];
+         int sum=0;         //to maintain the sum of all the numbers
+         for (int i=0;i<ar.length;i++){         // here I am itrating the elements using indices
+             sum=sum+ar[i];     //adding elements to the sum
          }
-         return (sum);
+         return (sum);  //returning the sum
 
     }
 
